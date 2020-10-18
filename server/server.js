@@ -68,7 +68,7 @@ app.get('/', (req, res) => {
             <title>Reload Express Sample App</title>
         </head>
         <body>
-            <h1>${welcomeMessage}</h1>            
+            <h1 style="display:none;">${welcomeMessage}</h1>            
             <script>
                 ${reloadScript}
             </script>
